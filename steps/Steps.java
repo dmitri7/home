@@ -31,7 +31,7 @@ public class Steps {
     }
 
     private static void process(int steps) {
-        calculate(steps, 0);
+        calculate(steps, 0); // second argument is always 0
     }
 
     public static void main(String[] args) {
